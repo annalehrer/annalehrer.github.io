@@ -1,10 +1,57 @@
+remote_theme: mmistakes/minimal-mistakes@4.26.2
+
 title: Anna Lehrer
-description: NYC Based. Arts Focused.
+subtitle: "NYC Based. Arts Focused."
+name: Anna Lehrer
+description: "NYC Based. Arts Focused."
 url: "https://annalehrer.github.io"
 baseurl: ""
 
+author:
+  name: Anna Lehrer
+  location: "New York, NY"
+  email: alehrer@umich.edu
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/annalehrer"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/annafrommichigan/"
+    - label: "Spotify"
+      icon: "fab fa-fw fa-spotify"
+      url: "https://open.spotify.com/user/anna_lehrer"
+    - label: "Pinterest"
+      icon: "fab fa-fw fa-pinterest"
+      url: "https://www.pinterest.com/annalehrer"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/annalehrer"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/annafrommichigan/"
+    - label: "Spotify"
+      icon: "fab fa-fw fa-spotify"
+      url: "https://open.spotify.com/user/anna_lehrer"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+
 markdown: kramdown
 permalink: pretty
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-include-cache
 
 exclude:
   - Gemfile
