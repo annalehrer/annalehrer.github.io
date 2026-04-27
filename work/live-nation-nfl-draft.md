@@ -1,11 +1,8 @@
 ---
-layout: single
-title: "2024 NFL Draft"
-permalink: /work/live-nation-nfl-draft/
-author_profile: true
+layout: page
+title: 2024 NFL Draft
+subtitle: An advertising campaign in support of Live Nation Concerts
 ---
-
-*An advertising campaign in support of Live Nation Concerts*
 
 I had the opportunity to attend the 2024 NFL Draft in Detroit. As a lifelong Michigan resident, it was incredible to see the city come together for this event. I feel proud to be one of 775,000+ attendees - and that an audience of this size saw ads I created for upcoming Michigan shows with Live Nation!
 
@@ -33,4 +30,4 @@ This campaign went live on both Live Nation Michigan social pages, and on boards
 
 ---
 
-[Back to Work](/work/){: .btn .btn--primary}
+[Back to Home](/){: .btn .btn-primary}

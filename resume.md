@@ -1,10 +1,7 @@
 ---
-layout: single
-title: "Resume"
-permalink: /resume/
-author_profile: true
+layout: page
+title: Resume
+subtitle: New York or Nowhere!
 ---
 
-*New York or Nowhere!*
-
-[Download Resume (PDF)](/assets/Anna_Lehrer_Resume.pdf){: .btn .btn--primary .btn--large}
+[Download Resume (PDF)](/assets/Anna_Lehrer_Resume.pdf){: .btn .btn-primary .btn-lg}

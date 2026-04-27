@@ -1,8 +1,7 @@
 ---
-layout: single
-title: "MUSIC Matters 2022 Rebrand"
-permalink: /work/music-matters-rebrand/
-author_profile: true
+layout: page
+title: MUSIC Matters 2022 Rebrand
+subtitle: A complete visual identity refresh for a University of Michigan club
 ---
 
 In 2022, MUSIC Matters Leadership felt it was time for a change. We wanted the logo and branding to have a more clear structure, with a defined color palette, timeless design, and a clean logo that conveyed the energy of the organization. Myself, along with three other members of the Leadership team, spearheaded this initiative to revamp MUSIC Matters branding.
@@ -91,4 +90,4 @@ To learn more about MUSIC Matters:
 - **Website:** [umichmusicmatters.com](https://umichmusicmatters.com)
 - **Email:** [musicmatters@umich.edu](mailto:musicmatters@umich.edu)
 
-[Back to Work](/work/){: .btn .btn--primary}
+[Back to Home](/){: .btn .btn-primary}

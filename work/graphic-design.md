@@ -1,12 +1,7 @@
 ---
-layout: single
-title: "Graphic Design"
-permalink: /work/graphic-design/
-author_profile: true
----
-
-*Below are a handful of projects I have designed.*
-
+layout: page
+title: Graphic Design
+subtitle: Below are a handful of projects I have designed.
 ---
 
 ## Calendar Ads
@@ -63,4 +58,4 @@ For @livenationmichigan
 
 ---
 
-[Back to Work](/work/){: .btn .btn--primary}
+[Back to Home](/){: .btn .btn-primary}

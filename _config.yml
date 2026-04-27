@@ -1,57 +1,66 @@
-remote_theme: mmistakes/minimal-mistakes@4.26.2
+remote_theme: daattali/beautiful-jekyll@6.0.1
 
 title: Anna Lehrer
-subtitle: "NYC Based. Arts Focused."
-name: Anna Lehrer
-description: "NYC Based. Arts Focused."
+author: Anna Lehrer
+
+navbar-links:
+  Home: ""
+  About: "about"
+  Work:
+    - Live Nation 2024 NFL Draft: "work/live-nation-nfl-draft"
+    - Graphic Design Work: "work/graphic-design"
+    - Music Matters 2022 Rebrand: "work/music-matters-rebrand"
+  Resume: "resume"
+  Contact: "contact"
+
 url: "https://annalehrer.github.io"
 baseurl: ""
 
-author:
-  name: Anna Lehrer
-  location: "New York, NY"
-  email: alehrer@umich.edu
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/annalehrer"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/annafrommichigan/"
-    - label: "Spotify"
-      icon: "fab fa-fw fa-spotify"
-      url: "https://open.spotify.com/user/anna_lehrer"
-    - label: "Pinterest"
-      icon: "fab fa-fw fa-pinterest"
-      url: "https://www.pinterest.com/annalehrer"
+# Avatar in navbar
+# avatar: "/assets/images/avatar.jpg"
+round-avatar: true
 
-footer:
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/annalehrer"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/annafrommichigan/"
-    - label: "Spotify"
-      icon: "fab fa-fw fa-spotify"
-      url: "https://open.spotify.com/user/anna_lehrer"
+# Social links in footer
+social-network-links:
+  email: "alehrer@umich.edu"
+  linkedin: annalehrer
+  instagram: annafrommichigan
+  spotify: anna_lehrer
 
+# Colors
+navbar-col: "#a0382a"
+navbar-text-col: "#ffffff"
+navbar-border-col: "#8b2500"
+page-col: "#ffffff"
+text-col: "#2c2c2c"
+link-col: "#a0382a"
+hover-col: "#8b2500"
+footer-col: "#2c2c2c"
+footer-text-col: "#cccccc"
+footer-link-col: "#f5e1b8"
+footer-hover-col: "#ffffff"
+
+# General
+title-on-all-pages: true
+excerpt_length: 50
+post_search: false
+
+# Defaults
 defaults:
   - scope:
       path: ""
     values:
-      layout: single
-      author_profile: true
+      layout: "page"
 
+# Build
+timezone: "America/New_York"
 markdown: kramdown
 permalink: pretty
 
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-include-cache
 
 exclude:
   - Gemfile

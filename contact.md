@@ -1,13 +1,10 @@
 ---
-layout: single
-title: "Contact"
-permalink: /contact/
-author_profile: true
+layout: page
+title: Contact
+subtitle: New York or Nowhere!
 ---
 
-*New York or Nowhere!*
-
-The best way to reach me is by email. You can also find me on social media through the links in the sidebar.
+The best way to reach me is by email. You can also find me on social media through the links in the footer.
 
 **Email:** [alehrer@umich.edu](mailto:alehrer@umich.edu)
 
