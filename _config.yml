@@ -1,0 +1,12 @@
+title: Anna Lehrer
+description: NYC Based. Arts Focused.
+url: "https://annalehrer.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
